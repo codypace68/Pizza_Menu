@@ -108,12 +108,18 @@ body {
 .pizza {
   display: flex;
   gap: 3.2rem;
+  background-color: #f5e4c6;
+  padding: 1rem;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
 }
 
 .pizza img {
   width: 12rem;
   aspect-ratio: 1;
   align-self: start;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
 }
 
 .pizza div {
